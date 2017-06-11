@@ -90,3 +90,5 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 MONGO_URI='mongodb://localhost:27017'
 MONGO_DATABASE='babylonhealth'
+AJAXCRAWL_ENABLED=True
+DUPEFILTER_DEBUG=True
